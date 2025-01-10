@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Cuentas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <label for="accountData">Datos de la cuenta:</label>
+            <input type="text" id="accountData">
+        </div>
+        <div class="row">
+            <button id="saveButton">Guardar</button>
+        </div>
+        <div id="accountInfo" class="account" style="display: none;">
+            <p id="accountDetails"></p>
+            <p id="purchaseDate"></p>
+            <p id="accountStatus">Estado: DISPONIBLE</p>
+            <div class="row">
+                <label for="buyerEmail">Datos del comprador:</label>
+                <input type="email" id="buyerEmail" placeholder="Ingrese correo">
+            </div>
+            <div class="row">
+                <button id="updateButton">Actualizar</button>
+                <button id="copyButton">Copiar</button>
+            </div>
+            <p id="expirationDate"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

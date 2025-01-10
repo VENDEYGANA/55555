@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.row label {
+    width: 150px;
+}
+.row input, .row button {
+    flex: 1;
+}
+.row button {
+    margin-left: 10px;
+}
+.account {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.account p {
+    margin: 5px 0;
+}
